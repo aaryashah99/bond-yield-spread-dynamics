@@ -2,9 +2,9 @@
 
 This Tableau + Excel project explores U.S. bond yield spreads (like 10Y–2Y and 10Y–3M) and their relationship to economic conditions such as inflation, GDP growth, and recessions.
 
-> A data visualization and correlation-driven analysis of yield curve behavior and its macroeconomic implications.
+## Dashboard Snapshot
+![Dashboard](https://github.com/user-attachments/assets/a2d92082-3fbc-460e-ac58-ae26e305c99a)
 
----
 
 ## Files Included
 
