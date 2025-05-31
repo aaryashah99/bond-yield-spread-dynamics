@@ -1,78 +1,52 @@
-# 📊 Bond Yield & Spread Dynamics Analysis
+# Bond Yield & Spread Dynamics: Macro-Financial Dashboard Analysis
 
-An interactive analysis of U.S. corporate bond yield spreads using Tableau and Excel, exploring their relationship with macroeconomic indicators like unemployment, inflation, and interest rates through regression modeling, correlation heatmaps, and recession overlays.
+This Tableau + Excel project explores U.S. bond yield spreads (like 10Y–2Y and 10Y–3M) and their relationship to economic conditions such as inflation, GDP growth, and recessions.
 
----
-
-##  Overview
-
-This project investigates how key macroeconomic variables influence U.S. corporate bond yield spreads. The objective is to identify which indicators most significantly drive credit risk as expressed through spread dynamics, particularly during economic downturns.
+> A data visualization and correlation-driven analysis of yield curve behavior and its macroeconomic implications.
 
 ---
 
-##  Project Structure
+## Files Included
 
-- `Project Sheet.xlsx` — Core Excel workbook including:
-  - Multiple linear regression modeling
-  - Correlation analysis
-  - Hypothesis testing
-  - Time series EDA
-- `MacroData.csv` — Raw macroeconomic data (monthly)
-- `Reshaped_Correlation_Matrix.xlsx` — Formatted matrix for visualization
-- `Bond Yield & Spread Dynamics Analysis.twbx` — Tableau workbook with full dashboard
+| File Name                             | Description                                                      |
+|--------------------------------------|------------------------------------------------------------------|
+| `Bond_Yield_Spread_Dynamics_Analysis.twbx` | Interactive Tableau workbook showing key yield trends and correlations |
+| `Project_Sheet.xlsx`                 | Primary data model with macro variables, calculations, and clean visuals |
+| `Reshaped_Correlation_Matrix.xlsx`  | Restructured matrix used for heatmaps or analytical visuals     |
 
 ---
 
-##  Tools & Techniques
+## Project Objective
 
-- **Excel**:
-  - Multi-variable regression
-  - p-value analysis
-  - Reshaped correlation matrices
-  - Hypothesis testing
-
-- **Tableau**:
-  - Dynamic parameter selection
-  - Dual-axis line charts
-  - Rolling average and anomaly detection
-  - Heatmaps and recession band overlays
+- Understand the behavior of U.S. Treasury yield spreads over time
+- Analyze how spread dynamics signal macroeconomic changes
+- Identify potential recession indicators through curve inversions
+- Correlate macroeconomic variables with yield movement patterns
 
 ---
 
-##  Key Components
+## Key Dashboards & Analysis Topics
 
-### 🔹 Exploratory Data Analysis
-- Time series comparison of spreads vs. macro indicators
-- Rolling averages to highlight volatility
-- Visualization of anomalies and cyclical patterns
-
-### 🔹 Correlation Matrix
-- Heatmap of spread relationships with macro variables
-- Highlighting strong correlations like unemployment vs. spreads
-
-### 🔹 Regression Modeling
-- Response variable: Corporate Bond Spread
-- Predictors: Unemployment, inflation expectations, policy rate, Treasury yields
-- Interpretation of coefficients and statistical significance
-
-### 🔹 Interactive Tableau Dashboard
-- Select macro variables dynamically
-- Overlay recession periods
-- Explore multiple credit ratings and indicators visually
+- Yield Curve Over Time (Flattening, Steepening, Inversion)
+- 10Y–2Y & 10Y–3M Spread Behavior vs. Inflation and Growth
+- Macroeconomic Correlation Matrix
+- Tableau heatmaps and trend visualizations
+- Economic signals before/during tightening cycles
 
 ---
 
-##  Key Insights
+## Tools Used
 
-- **Unemployment** is the strongest and most consistent predictor of credit spreads.
-- **Federal Funds Rate** moderately influences spread behavior.
-- **Inflation expectations** had weak predictive power in this analysis.
-- Spreads reliably spike during recessionary periods, reflecting rising credit risk.
-
----
-
-##  Outcome
-
-This project demonstrates how a combination of **financial analytics**, **statistical modeling**, and **interactive data visualization** can uncover critical insights into credit market behavior.
+- **Tableau** – for interactive visualization and dashboard design
+- **Excel (XLSX)** – for data structuring, transformation, and matrix prep
+- **Git/GitHub** – for version control and public project sharing
 
 ---
+
+## Key Insights
+
+- Inverted yield curves (notably 10Y–3M) preceded economic slowdowns in both 2019 and 2022
+- Spread tightening aligned with inflation surges and aggressive Fed hikes
+- Visual correlation patterns indicate stronger relationships between yield spreads and leading economic indicators than traditional policy rates
+
+
